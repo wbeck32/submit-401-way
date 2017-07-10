@@ -27,6 +27,7 @@ describe('calculator library', () => {
       catch(err) {
         failed = true;
       }
-    assert.ok(failed);
+    // assert.ok(failed);
+    assert.ifError(failed);
   });
 });
