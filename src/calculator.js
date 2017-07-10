@@ -1,25 +1,26 @@
-function calcAdd(addOne, addTwo) {
-  return addOne + addTwo;
+function calcAdd(x, y) {
+  return x + y;
 
 }
 
-function calcSubtract() {
-
-
-}
-
-function calcMultiply() {
-
-
-}
-
-function calcDivide() {
+function calcSubtract(x, y) {
 
 
 
 }
 
-function calcDivideByZero() {
+function calcMultiply(x, y) {
+
+
+}
+
+function calcDivide(x, y) {
+
+
+
+}
+
+function calcDivideByZero(x, y) {
 
 
 }

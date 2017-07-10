@@ -5,11 +5,15 @@ const calculator = require('../src/calculator');// mocha test
 
 describe('calculator library', () => {
   it('adds correctly', () => {
-    const sum = calculator.calcAdd(2,3);
-    assert.equal(sum, 5);
-
+    try {
+      const sum = calculator.calcAdd(2, 3);
+      assert.equal(sum, 5); //passes
+    } catch (err) {
+      console.log(err);
+    }
   });
   it('subtracts correctly', () => {
+    
 
   });
   it('multiplies correctly', () => {
