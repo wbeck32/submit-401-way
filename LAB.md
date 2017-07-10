@@ -10,7 +10,7 @@ Submit an assignment the 401 way!
 1. Start a branch (`git checkout -b dev`)
 1. Essentials
     * `.eslintrc`
-    
+
     ```json
     {
       "env": {
@@ -40,30 +40,30 @@ Submit an assignment the 401 way!
       }
     }
     ```
-    
+
     * `.gitignore`
-    
+
     ```
     node_modules
     DS_Store
     ```
-    
+
     * `package.json`
-    
+
     ```
     > npm init
     ```
-    
+
     Add `test` and `start` `script`!
 
     * `.travis.yml`
-    
+
     ```yaml
     language: node_js
     node_js:
       - "8"
     ```
-    
+
 1. Repeat until done:
     * Do work
       * Write a test
@@ -74,16 +74,16 @@ Submit an assignment the 401 way!
     * Repeat
     * Push to your github fork
     * Repeat
-    
+
 1. Submit PR from `<your repo>/<your branch>` to `<class repo>/<branch-with-your-username>`
 1. Verify that PR passes Travis CI
 1. Submit PR Url and (**These are not optional!!!**):
   * reflection (what happened? how was it?)
   * questions and follow-on interest
-  
+
 ### For this assignment
 
 Submit your modularized, tested math library:
 
-1. Library with basic math functions: `add`, `substract`, `multiple`, `divide`.
+1. Library with basic math functions: `add`, `subtract`, `multiple`, `divide`.
 1. throw an error `throw new Error('your message')` when attempting to divide by 0
