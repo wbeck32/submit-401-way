@@ -6,18 +6,19 @@ const calculator = require('../src/calculator');
 describe('calculator library', () => {
   it('adds correctly', () => {
     const sum = calculator.calcAdd(2, 3);
-    assert.equal(sum, 5); //passes
+    assert.equal(sum, 5);
   });
   it('subtracts correctly', () => {
     const difference = calculator.calcSubtract(6, 9);
     assert.equal(difference, -3);
   });
   it('multiplies correctly', () => {
-
+    const product = calculator.calcMultiply(9, 5);
+    assert.equal(product, 45);
   });
   it('divides correctly', () => {
     const quotient = calculator.calcDivide(36, 31);
-    assert.equal(quotient, 1.161)
+    assert.equal(quotient, 1.161);
   });
   it('divides by zero correctly', () => {
     let failed = false;
