@@ -1,55 +1,27 @@
-    * `.eslintrc`
-
-    ```json
-    {
-      "env": {
-        "node": true,
-        "mocha": true,
-        "es6": true
-      },
-      "extends": "eslint:recommended",
-      "rules": {
-        "no-console": "warn",
-        "indent": [
-          "error",
-          4
-        ],
-        "linebreak-style": [
-          "error",
-          "unix"
-        ],
-        "quotes": [
-          "error",
-          "single"
-        ],
-        "semi": [
-          "error",
-          "always"
-        ]
-      }
-    }
-    ```
-
-    * `.gitignore`
-
-    ```
-    node_modules
-    DS_Store
-    ```
-
-    * `package.json`
-
-    ```
-    > npm init
-    ```
-
-    Add `test` and `start` `script`!
-
-    * `.travis.yml`
-
-    ```yaml
-    language: node_js
-    node_js:
-      - "8"
-    ```
-    
+{
+  "env": {
+    "node": true,
+    "mocha": true,
+    "es6": true
+  },
+  "extends": "eslint:recommended",
+  "rules": {
+    "no-console": "warn",
+    "indent": [
+      "error",
+      4
+    ],
+    "linebreak-style": [
+      "error",
+      "unix"
+    ],
+    "quotes": [
+      "error",
+      "single"
+    ],
+    "semi": [
+      "error",
+      "always"
+    ]
+  }
+}
