@@ -17,18 +17,17 @@ describe('calculator library', () => {
     assert.equal(product, 45);
   });
   it('divides correctly', () => {
-    const quotient = calculator.calcDivide(36, 31);
-    assert.equal(quotient, 1.161);
+    const quotient = calculator.calcDivide(36, 4);
+    assert.equal(quotient, 9);
   });
   it('divides by zero correctly', () => {
     let failed = false;
       try {
-        const failByZero = calculator.calcDivide(10, 0);
+        calculator.calcDivide(10, 0);
       }
       catch(err) {
         failed = true;
       }
-    // assert.ok(failed);
-    assert.ifError(failed);
+    assert.ok(failed);
   });
 });

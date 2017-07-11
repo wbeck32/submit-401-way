@@ -11,8 +11,11 @@ function calcMultiply(x, y) {
 }
 
 function calcDivide(x, y) {
+  if (y === 0) {
+    throw new Error('you are trying to divide by 0. not cool');
+  }
   var q = x/y;
-  return q.toFixed(3);
+  return q;
 }
 
 module.exports = {
