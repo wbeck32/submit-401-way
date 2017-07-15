@@ -14,7 +14,7 @@ function calcDivide(x, y) {
   if (y === 0) {
     throw new Error('you are trying to divide by 0. not cool');
   }
-  var q = x/y;
+  var q = x / y;
   return q;
 }
 

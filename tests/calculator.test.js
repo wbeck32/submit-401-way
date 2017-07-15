@@ -22,12 +22,11 @@ describe('calculator library', () => {
   });
   it('divides by zero correctly', () => {
     let failed = false;
-      try {
-        calculator.calcDivide(10, 0);
-      }
-      catch(err) {
-        failed = true;
-      }
+    try {
+      calculator.calcDivide(10, 0);
+    } catch (err) {
+      failed = true;
+    }
     assert.ok(failed);
   });
 });
